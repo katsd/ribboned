@@ -64,6 +64,6 @@
         </g>
     </g>
     <defs>
-        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.4103e-14,-230.319,219.388,1.34336e-14,776.686,128.37)"><stop offset="0" style="stop-color:RIBBONED_COLOR2;stop-opacity:1"/><stop offset="1" style="stop-color:RIBBONED_COLOR1;stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.4103e-14,-230.319,219.388,1.34336e-14,776.686,128.37)"><stop offset="0" style="stop-color:RIBBONED_COLOR_DARK;stop-opacity:1"/><stop offset="1" style="stop-color:RIBBONED_COLOR_LIGHT;stop-opacity:1"/></linearGradient>
     </defs>
 </svg>
