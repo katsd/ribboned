@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(2.3997,0,0,2.3997,-386.613,-763.104)">
+        <rect x="161.109" y="318" width="426.72" height="426.72" style="fill:white;"/>
+    </g>
+    <g id="Grid">
+        <g id="Verical">
+            <g transform="matrix(6.12323e-17,1,-1,6.12323e-17,1024,-2.84217e-14)">
+                <path d="M0,512L1024,512" style="fill:none;stroke:rgb(168,168,168);stroke-width:10.42px;"/>
+            </g>
+            <g transform="matrix(6.12323e-17,1,-1,6.12323e-17,833.5,-5.68434e-14)">
+                <path d="M0,512L1024,512" style="fill:none;stroke:rgb(168,168,168);stroke-width:10.42px;"/>
+            </g>
+            <g transform="matrix(6.12323e-17,1,-1,6.12323e-17,582,2.13163e-13)">
+                <path d="M0,512L1024,512" style="fill:none;stroke:rgb(168,168,168);stroke-width:10.42px;"/>
+            </g>
+            <g transform="matrix(6.12323e-17,1,-1,6.12323e-17,1466,-5.68434e-14)">
+                <path d="M0,512L1024,512" style="fill:none;stroke:rgb(168,168,168);stroke-width:10.42px;"/>
+            </g>
+            <g transform="matrix(6.12323e-17,1,-1,6.12323e-17,1214.5,-5.68434e-14)">
+                <path d="M0,512L1024,512" style="fill:none;stroke:rgb(168,168,168);stroke-width:10.42px;"/>
+            </g>
+        </g>
+        <g id="Horizontal" transform="matrix(6.12323e-17,1,-1,6.12323e-17,1024,1.13687e-13)">
+            <g transform="matrix(6.12323e-17,1,-1,6.12323e-17,1024,-2.84217e-14)">
+                <path d="M0,512L1024,512" style="fill:none;stroke:rgb(168,168,168);stroke-width:10.42px;"/>
+            </g>
+            <g transform="matrix(6.12323e-17,1,-1,6.12323e-17,833.5,-5.68434e-14)">
+                <path d="M0,512L1024,512" style="fill:none;stroke:rgb(168,168,168);stroke-width:10.42px;"/>
+            </g>
+            <g transform="matrix(6.12323e-17,1,-1,6.12323e-17,582,2.13163e-13)">
+                <path d="M0,512L1024,512" style="fill:none;stroke:rgb(168,168,168);stroke-width:10.42px;"/>
+            </g>
+            <g transform="matrix(6.12323e-17,1,-1,6.12323e-17,1466,-5.68434e-14)">
+                <path d="M0,512L1024,512" style="fill:none;stroke:rgb(168,168,168);stroke-width:10.42px;"/>
+            </g>
+            <g transform="matrix(6.12323e-17,1,-1,6.12323e-17,1214.5,-5.68434e-14)">
+                <path d="M0,512L1024,512" style="fill:none;stroke:rgb(168,168,168);stroke-width:10.42px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,1,-0.843837,0.843837,432.045,-432.045)">
+            <path d="M0,512L1024,512" style="fill:none;stroke:rgb(168,168,168);stroke-width:7.96px;"/>
+        </g>
+        <g transform="matrix(-1,1,0.843837,0.843837,591.955,-432.045)">
+            <path d="M0,512L1024,512" style="fill:none;stroke:rgb(168,168,168);stroke-width:7.96px;"/>
+        </g>
+        <g transform="matrix(1.18323,0,0,1.18323,-108.012,-145.876)">
+            <circle cx="524" cy="556" r="161" style="fill:none;stroke:rgb(168,168,168);stroke-width:8.8px;"/>
+        </g>
+        <g transform="matrix(1.67391,0,0,1.67391,-365.13,-418.696)">
+            <circle cx="524" cy="556" r="161" style="fill:none;stroke:rgb(168,168,168);stroke-width:6.22px;"/>
+        </g>
+        <g transform="matrix(2.74534,0,0,2.74534,-926.559,-1014.41)">
+            <circle cx="524" cy="556" r="161" style="fill:none;stroke:rgb(168,168,168);stroke-width:3.79px;"/>
+        </g>
+    </g>
+    <g transform="matrix(1.21399,-1.21399,1.09909,1.09909,-686.724,1198.46)">
+        <g id="Ribbon">
+            <rect x="360.178" y="-93.536" width="832.626" height="216.89" style="fill:url(#_Linear1);"/>
+            <g transform="matrix(0.491986,3.01233e-17,2.58628e-16,0.543419,442.995,19.7051)">
+                <text x="677.5px" y="103.632px" text-anchor="middle" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:312.5px;fill:white;">RIBBONED_TEXT</text>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.4103e-14,-230.319,219.388,1.34336e-14,776.686,128.37)"><stop offset="0" style="stop-color:RIBBONED_COLOR2;stop-opacity:1"/><stop offset="1" style="stop-color:RIBBONED_COLOR1;stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>

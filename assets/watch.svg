@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Base">
+        <g id="Background" transform="matrix(3.53713,0,0,4.59193,-1206.16,-2107.7)">
+            <rect x="341" y="459" width="289.5" height="223" style="fill:rgb(51,51,51);"/>
+        </g>
+        <g id="Lines">
+            <path d="M0,512L1024,512" style="fill:none;stroke:rgb(76,76,76);stroke-width:25px;"/>
+            <g transform="matrix(6.12323e-17,1,-1,6.12323e-17,1024,-1.7053e-13)">
+                <path d="M0,512L1024,512" style="fill:none;stroke:rgb(76,76,76);stroke-width:25px;"/>
+            </g>
+            <g transform="matrix(1.13397,0,0,1.13397,-75.9641,-102.045)">
+                <circle cx="518.5" cy="541.5" r="104.5" style="fill:none;stroke:rgb(76,76,76);stroke-width:22.05px;"/>
+            </g>
+            <g transform="matrix(2.48804,0,0,2.48804,-778.048,-835.273)">
+                <circle cx="518.5" cy="541.5" r="104.5" style="fill:none;stroke:rgb(104,104,104);stroke-width:10.05px;"/>
+            </g>
+            <g transform="matrix(3.58852,0,0,3.58852,-1348.65,-1431.18)">
+                <circle cx="518.5" cy="541.5" r="104.5" style="fill:none;stroke:rgb(104,104,104);stroke-width:6.97px;"/>
+            </g>
+            <g transform="matrix(4.79904,0,0,4.79904,-1976.3,-2086.68)">
+                <circle cx="518.5" cy="541.5" r="104.5" style="fill:none;stroke:rgb(76,76,76);stroke-width:5.21px;"/>
+            </g>
+        </g>
+    </g>
+    <g id="Ribbon" transform="matrix(1,0,0,1,73,82)">
+        <g transform="matrix(-1.49623,1.49623,-1.47017,-1.47017,1418.26,-914.832)">
+            <rect x="360.178" y="-93.536" width="832.626" height="216.89" style="fill:url(#_Linear1);"/>
+        </g>
+        <g transform="matrix(0.69954,-0.69954,0.69954,0.69954,-207.655,717.398)">
+            <text x="668px" y="103.632px" text-anchor="middle" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:312.5px;fill:white;">RIBBONED_TEXT</text>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.98952e-13,-230.319,219.388,2.27374e-13,776.686,128.37)"><stop offset="0" style="stop-color:RIBBONED_COLOR1;stop-opacity:1"/><stop offset="1" style="stop-color:RIBBONED_COLOR2;stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>
