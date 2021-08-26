@@ -7,7 +7,7 @@ use svg2appicon;
 fn main() {
     match svg2appicon::generate_icons(&get_config()) {
         Ok(()) => (),
-        Err(e) => eprintln!("{}", e)
+        Err(e) => eprintln!("Error: {}", e)
     };
 }
 
