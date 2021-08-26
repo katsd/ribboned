@@ -2,6 +2,10 @@
 
 Make default app icons identifiable (for iOS, macOS, and watchOS)
 
+![iOS](screenshots/ios.png)
+![macOS](screenshots/mac.png)
+![watchOS](screenshots/watch.png)
+
 ## Usage
 ```
 ribboned [FLAGS] <APPICONSET> <TEXT>
@@ -18,8 +22,10 @@ ARGS:
 
 ### Example
 ```
-ribboned ~/Project/Project/Assets.xcassets/AppIcon.appiconset RIBBONED --ios --mac
+ribboned ~/Project/Shared/Assets.xcassets/AppIcon.appiconset RIBBONED --ios --mac
 ```
+↓
+![Example](screenshots/example.png)
 
 ## Install
 ```
