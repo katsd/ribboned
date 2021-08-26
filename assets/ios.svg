@@ -59,7 +59,7 @@
         <g id="Ribbon">
             <rect x="360.178" y="-93.536" width="832.626" height="216.89" style="fill:url(#_Linear1);"/>
             <g transform="matrix(0.491986,3.01233e-17,2.58628e-16,0.543419,442.995,19.7051)">
-                <text x="677.5px" y="103.632px" text-anchor="middle" style="font-family:'Helvetica-Bold', 'Helvetica';font-weight:700;font-size:312.5px;fill:white;">RIBBONED_TEXT</text>
+                <text x="677.5px" y="103.632px" text-anchor="middle" style="font-family:'Helvetica';font-weight:700;font-size:312.5px;fill:white;">RIBBONED_TEXT</text>
             </g>
         </g>
     </g>

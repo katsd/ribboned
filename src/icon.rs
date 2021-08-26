@@ -1,53 +1,85 @@
-use std::fs::File;
-use std::io::Read;
-
 static RIBBONED_TEXT: &str = "RIBBONED_TEXT";
 static RIBBONED_COLOR_LIGHT: &str = "RIBBONED_COLOR_LIGHT";
 static RIBBONED_COLOR_DARK: &str = "RIBBONED_COLOR_DARK";
 
 pub enum OS {
-    ios,
-    mac,
-    watch,
+    Ios,
+    Mac,
+    Watch,
 }
 
 impl OS {
-    fn to_file_path(&self) -> String {
-        format!("assets/{}.svg",
-                match self {
-                    ios => "ios",
-                    mac => "mac",
-                    watch => "watch"
-                }
-        )
+    fn get_svg_str(&self) -> String {
+        match self {
+            OS::Ios => include_str!("../assets/ios.svg").to_string(),
+            OS::Mac => include_str!("../assets/mac.svg").to_string(),
+            OS::Watch => include_str!("../assets/watch.svg").to_string(),
+        }
     }
 }
 
-pub struct Color {
-    pub r: u8,
-    pub g: u8,
-    pub b: u8,
+struct Color {
+    r: u8,
+    g: u8,
+    b: u8,
 }
 
 impl Color {
+    fn rgb(r: u8, g: u8, b: u8) -> Color {
+        Color { r, g, b }
+    }
+
     fn to_svg_str(&self) -> String {
         format!("rgb({},{},{})", self.r, self.g, self.b)
     }
 }
 
-pub struct IconConfig {
-    pub text: String,
-    pub color_light: Color,
-    pub color_dark: Color,
+struct Gradient {
+    light: Color,
+    dark: Color,
 }
 
-pub fn ios_icon_svg_str(os: &OS, config: &IconConfig) -> String {
-    let mut f = File::open(os.to_file_path()).expect("file not found");
-    let mut svg_str = String::new();
-    f.read_to_string(&mut svg_str).expect("failed to read the file");
+impl Gradient {
+    fn blue() -> Gradient { Gradient { light: Color::rgb(37, 141, 255), dark: Color::rgb(0, 122, 255) } }
 
-    svg_str
+    fn cyan() -> Gradient { Gradient { light: Color::rgb(91, 192, 235), dark: Color::rgb(50, 173, 230) } }
+
+    fn green() -> Gradient { Gradient { light: Color::rgb(94, 213, 124), dark: Color::rgb(52, 199, 89) } }
+
+    fn indigo() -> Gradient { Gradient { light: Color::rgb(107, 105, 219), dark: Color::rgb(88, 86, 214) } }
+
+    fn orange() -> Gradient { Gradient { light: Color::rgb(255, 170, 49), dark: Color::rgb(255, 149, 0) } }
+
+    fn pink() -> Gradient { Gradient { light: Color::rgb(255, 79, 113), dark: Color::rgb(255, 45, 85) } }
+}
+
+pub struct IconConfig {
+    text: String,
+    gradient: Gradient,
+}
+
+impl IconConfig {
+    pub fn new(text: String) -> IconConfig {
+        let sum: i32 = text.clone().into_bytes().iter().map(|v| *v as i32).sum();
+
+        let gradient = match sum % 6 {
+            0 => Gradient::blue(),
+            1 => Gradient::cyan(),
+            2 => Gradient::green(),
+            3 => Gradient::indigo(),
+            4 => Gradient::orange(),
+            5 => Gradient::pink(),
+            _ => Gradient::blue()
+        };
+
+        IconConfig { text: text.chars().take(3).collect::<String>(), gradient }
+    }
+}
+
+pub fn get_icon_svg(os: OS, config: &IconConfig) -> Vec<u8> {
+    os.get_svg_str()
         .replace(RIBBONED_TEXT, &config.text)
-        .replace(RIBBONED_COLOR_LIGHT, &config.color_light.to_svg_str())
-        .replace(RIBBONED_COLOR_DARK, &config.color_dark.to_svg_str())
+        .replace(RIBBONED_COLOR_LIGHT, &config.gradient.light.to_svg_str())
+        .replace(RIBBONED_COLOR_DARK, &config.gradient.dark.to_svg_str())
+        .into_bytes()
 }
