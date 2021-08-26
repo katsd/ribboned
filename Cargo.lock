@@ -357,9 +357,9 @@ checksum = "8ea5119cdb4c55b55d432abb513a0429384878c15dde60cc77b1c99de1a95a6a"
 
 [[package]]
 name = "svg2appicon"
-version = "0.1.0"
+version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c06c824a73874292c4677fd558f6fc2b6a5ffa817dafdc2f5ec6884cf61acef5"
+checksum = "594925ecb6a3c7d0d409641248e08193a5672dfda9587b766fc8e74935ac0d80"
 dependencies = [
  "anyhow",
  "clap",
