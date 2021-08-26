@@ -29,7 +29,7 @@
             <rect x="360.178" y="-93.536" width="832.626" height="216.89" style="fill:url(#_Linear1);"/>
         </g>
         <g transform="matrix(0.69954,-0.69954,0.69954,0.69954,-207.655,717.398)">
-            <text x="668px" y="103.632px" text-anchor="middle" style="font-family:'Helvetica';font-weight:700;font-size:312.5px;fill:white;">RIBBONED_TEXT</text>
+            <text x="668px" y="125px" text-anchor="middle" style="font-family:'Helvetica';font-weight:700;font-size:312.5px;fill:white;">RIBBONED_TEXT</text>
         </g>
     </g>
     <defs>
