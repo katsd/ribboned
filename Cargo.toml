@@ -3,9 +3,11 @@ name = "ribboned"
 version = "0.1.0"
 authors = ["Katsu <kats.mtd@gmail.com>"]
 edition = "2018"
+description = "Make default app icons identifiable (for iOS, macOS, and watchOS)"
+license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 clap = "2.33.3"
-svg2appicon = "0.1.1"
+svg2appicon = "0.1.2"
